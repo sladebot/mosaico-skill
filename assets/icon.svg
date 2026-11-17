@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Mosaico Device Helper icon">
+  <rect width="512" height="512" rx="112" fill="#114B5F"/>
+  <g transform="translate(96 96)">
+    <rect x="0" y="0" width="92" height="92" rx="22" fill="#4CC9F0"/>
+    <rect x="114" y="0" width="92" height="92" rx="22" fill="#F9C74F"/>
+    <rect x="228" y="0" width="92" height="92" rx="22" fill="#F9844A"/>
+    <rect x="0" y="114" width="92" height="92" rx="22" fill="#90BE6D"/>
+    <circle cx="160" cy="160" r="48" fill="#FFFFFF"/>
+    <rect x="228" y="114" width="92" height="92" rx="22" fill="#B8F2E6"/>
+    <rect x="0" y="228" width="92" height="92" rx="22" fill="#F94144"/>
+    <rect x="114" y="228" width="92" height="92" rx="22" fill="#A78BFA"/>
+    <rect x="228" y="228" width="92" height="92" rx="22" fill="#43AA8B"/>
+  </g>
+</svg>

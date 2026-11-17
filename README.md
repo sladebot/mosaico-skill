@@ -2,6 +2,8 @@
 
 A reusable Codex skill for working with ESP-Mosaico devices and the [mosaico.ai](https://mosaico.ai/) ecosystem.
 
+This is an independent community resource and is not affiliated with or endorsed by Espressif.
+
 It helps an agent:
 
 - connect to and troubleshoot an ESP-Mosaico over LAN, Wi-Fi, or USB;
@@ -30,7 +32,7 @@ Restart Codex if the skill does not appear automatically, then invoke it with `$
 
 ## Mobile use
 
-Codex Remote on a phone can use this skill when the connected host has it installed. A GitHub repository by itself does not install a standalone skill into ChatGPT mobile. Independent ChatGPT web/mobile distribution requires packaging the skill as a plugin and submitting it to the universal plugin directory.
+Codex Remote on a phone can use this skill when the connected host has it installed. The repository also contains a skills-only plugin manifest for submission to the universal plugin directory. Until that submission is approved and published, a GitHub repository by itself does not install the skill into ChatGPT mobile.
 
 ## Sources
 

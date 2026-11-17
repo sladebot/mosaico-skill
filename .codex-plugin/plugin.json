@@ -1,0 +1,45 @@
+{
+  "name": "mosaico-device-helper",
+  "version": "1.0.0",
+  "description": "Guidance for connecting to, developing for, installing software on, and recovering ESP-Mosaico devices using official Mosaico workflows.",
+  "author": {
+    "name": "Souranil Sen",
+    "url": "https://github.com/sladebot"
+  },
+  "homepage": "https://github.com/sladebot/mosaico-skill",
+  "repository": "https://github.com/sladebot/mosaico-skill",
+  "license": "MIT",
+  "keywords": [
+    "esp-mosaico",
+    "embedded-development",
+    "vibe-mode",
+    "irisfw"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Mosaico Device Helper",
+    "shortDescription": "ESP-Mosaico workflows",
+    "longDescription": "Connect to and troubleshoot ESP-Mosaico devices, install and run IDEAs, develop and validate .irisfw applications with Vibe Mode, and follow safer firmware update and recovery workflows. The plugin uses focused references based on official Mosaico guides and repositories. It is an independent community resource and is not affiliated with or endorsed by Espressif.",
+    "developerName": "Souranil Sen",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Troubleshoot ESP-Mosaico LAN, Wi-Fi, web, and USB connectivity",
+      "Guide Vibe Mode and IDEA installation workflows",
+      "Develop, simulate, package, and validate .irisfw applications",
+      "Guide firmware updates and recovery while preserving Vibe Mode"
+    ],
+    "websiteURL": "https://github.com/sladebot/mosaico-skill",
+    "privacyPolicyURL": "https://github.com/sladebot/mosaico-skill/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/sladebot/mosaico-skill/blob/main/TERMS.md",
+    "supportURL": "https://github.com/sladebot/mosaico-skill/issues",
+    "brandColor": "#114B5F",
+    "brandColorDark": "#4CC9F0",
+    "defaultPrompt": [
+      "Help me connect to my ESP-Mosaico and diagnose its local web interface.",
+      "Guide me through building and installing an IDEA on ESP-Mosaico.",
+      "Help me safely update or recover my ESP-Mosaico firmware."
+    ],
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg"
+  }
+}
